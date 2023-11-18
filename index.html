@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+    <title>Covid Detection</title>
+</head>
+<body>
+    <div class="background-video">
+        <video autoplay muted loop id="video-background">
+            <source src="{{ url_for('static', filename='background.mp4') }}" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
+    <!-- Rest of your content -->
+    <h1>Upload New File</h1>
+    <form method="post" enctype="multipart/form-data">
+        <input type="file" name="file1">
+        <input type="submit">
+    </form>
+    {% if result %}
+    <img src="{{ url_for('static', filename=image_filename) }}" align="middle" />
+    <h1>{{ result }}</h1>
+    {% endif %}
+</body>
+</html>
