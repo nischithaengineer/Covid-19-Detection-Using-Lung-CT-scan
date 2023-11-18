@@ -24,4 +24,9 @@ Setup:
 * Upload lung CT scan images through the provided interface.
 * View the results displaying the likelihood of COVID-19 presence based on the CT scan analysis.
 
+ ## Contributors:
+
+- **Nischitha D:** Utilized insights from IEEE papers for model development and research.
+
+
 
