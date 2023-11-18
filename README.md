@@ -1,14 +1,3 @@
 # Covid-19-Detection-Using-Lung-CT-scan
-Project Structure 
-covid_detection_flask/
-├── app/
-│   ├── static/
-│   │   ├── style.css
-│   │   
-│   ├── templates/
-│      └── index.html
-│   
-├── env/ (virtual environment)
-├── model.py
-└── app.py
-└── Covid-19.h5(trained model saved file)
+![image](https://github.com/nischithaengineer/Covid-19-Detection-Using-Lung-CT-scan/assets/129848551/f5307b7d-977b-4bdc-8e6b-ec66a8cb83c6)
+
